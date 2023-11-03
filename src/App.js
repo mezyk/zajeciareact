@@ -10,9 +10,9 @@ function App() {
       <h3>Zajęcia 1:</h3>
       <Header />
       <Footer />
-      <h3>Zajęcia 2:</h3>
+      <h3>Zajęcia 2/3:</h3>
       <CompList >
-        <ElementsComp listItems={["First", "Second", "Third"]} />
+        <ElementsComp/>
       </CompList>  
     </div>
   );
